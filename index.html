@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <link rel="icon" href="data:image/png;base64,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">
 <style>
 :root {
@@ -119,6 +120,12 @@ padding-block: 72px 88px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+}
+
+.hero-shot {
+max-width: 100%;
+height: auto;
+justify-self: center;
 }
 
 .eyebrow {
@@ -277,41 +284,82 @@ padding: 22px 0 0;
 
 .feature-card h3 { margin-top: 34px; }
 .compact-heading { max-width: 590px; }
-.carousel-placeholder { margin-top: 56px; }
+.carousel { margin-top: 56px; position: relative; }
 
-.carousel-stage {
-min-height: 520px;
-border: 1px dashed rgba(30, 20, 0, 0.34);
-background: var(--cream);
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 8px;
-text-align: center;
+.screenshot-swiper {
+width: 100%;
+padding: 20px 0 70px;
+overflow: hidden;
 }
 
-.carousel-stage strong {
-color: var(--ink);
-font-size: 14px;
-line-height: 20px;
+.screenshot-swiper .swiper-slide {
+border-radius: 18px;
+overflow: hidden;
+box-shadow: 0 10px 30px rgba(30, 20, 0, 0.14);
+}
+
+.screenshot-swiper .swiper-slide img {
+display: block;
+width: 100%;
+height: auto;
+aspect-ratio: 9 / 16;
+object-fit: cover;
+}
+
+.screenshot-swiper .swiper-pagination-bullet {
+width: 24px;
+height: 6px;
+border-radius: 4px;
+background: var(--muted);
+opacity: 0.4;
+}
+
+.screenshot-swiper .swiper-pagination-bullet-active {
+background: var(--terracotta);
+opacity: 1;
+}
+
+.carousel .swiper-button-next,
+.carousel .swiper-button-prev {
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background: var(--ink);
+color: #fff;
+opacity: 1;
+box-shadow: 0 4px 16px rgba(30, 20, 0, 0.2);
+transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.carousel .swiper-button-next:hover,
+.carousel .swiper-button-prev:hover {
+background: var(--terracotta);
+transform: scale(1.05);
+}
+
+.carousel .swiper-button-next::after,
+.carousel .swiper-button-prev::after {
+font-size: 20px;
+font-weight: 700;
 }
 
 .carousel-captions {
 display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 0 32px;
+grid-template-columns: repeat(4, 1fr);
+gap: 0 24px;
 border-bottom: 1px solid var(--line);
 }
 
 .carousel-captions p {
 display: flex;
-gap: 12px;
+gap: 10px;
 margin: 0;
 padding: 18px 0;
 border-top: 1px solid var(--line);
 color: var(--ink);
 font-weight: 600;
+font-size: 13px;
+line-height: 18px;
 }
 
 .carousel-captions span { color: var(--terracotta); }
@@ -484,8 +532,7 @@ text-align: center;
 .header-inner { grid-template-columns: 1fr; }
 .section { padding-block: 72px; }
 h1 { font-size: 40px; }
-.placeholder,
-.carousel-stage { min-height: 400px; }
+.placeholder { min-height: 400px; }
 
 .value-grid,
 .feature-grid,
@@ -523,6 +570,8 @@ html { scroll-behavior: auto; }
 <a href="#screenshots">Screenshots</a>
 <a href="#faq">FAQ</a>
 <a href="#contact">Contact</a>
+<a href="https://sites.google.com/ecomobile.vn/demo-policy/writing-policy" target="_blank" rel="noopener">Our Policy</a>
+<a href="https://sites.google.com/ecomobile.vn/demo-policy/delete-account" target="_blank" rel="noopener">Delete Account</a>
 </nav>
 <!-- Replace # with the Google Play listing URL -->
 <a class="button button-small" href="#" data-todo="google-play-url">Download</a>
@@ -538,11 +587,7 @@ html { scroll-behavior: auto; }
 <!-- Replace # with the Google Play listing URL -->
 <a class="button" href="#" data-todo="google-play-url">Get Writez on Google Play</a>
 </div>
-<!-- Replace this block with a portrait app screenshot -->
-<div class="placeholder">
-<strong>Hero app screenshot</strong>
-<small>Portrait · PNG/JPG</small>
-</div>
+<img class="hero-shot" src="assets/logo.png" alt="Writez app icon" width="548" height="550">
 </section>
 
 <section class="section value-section">
@@ -623,11 +668,38 @@ html { scroll-behavior: auto; }
 <h2>See Writez in action.</h2>
 </div>
 
-<div class="carousel-placeholder">
-<!-- Replace this block with an image carousel -->
-<div class="carousel-stage">
-<strong>App screenshot carousel</strong>
-<small>Insert 5–6 portrait app screenshots here</small>
+<div class="carousel">
+<div class="swiper screenshot-swiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<img src="assets/carousel/01.png" alt="Keep every draft organized">
+</div>
+<div class="swiper-slide">
+<img src="assets/carousel/02.png" alt="Find your place and keep writing">
+</div>
+<div class="swiper-slide">
+<img src="assets/carousel/03.png" alt="Write with the tools you prefer">
+</div>
+<div class="swiper-slide">
+<img src="assets/carousel/04.png" alt="Customize your writing toolbar">
+</div>
+<div class="swiper-slide">
+<img src="assets/carousel/05.png" alt="Return to an earlier version">
+</div>
+<div class="swiper-slide">
+<img src="assets/carousel/06.png" alt="Export your work your way">
+</div>
+<div class="swiper-slide">
+<img src="assets/carousel/07.png" alt="Writez home screen">
+</div>
+<div class="swiper-slide">
+<img src="assets/carousel/08.png" alt="Writez writing tools">
+</div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
 </div>
 <div class="carousel-captions">
 <p><span>01</span>Keep every draft organized</p>
@@ -636,6 +708,8 @@ html { scroll-behavior: auto; }
 <p><span>04</span>Customize your writing toolbar</p>
 <p><span>05</span>Return to an earlier version</p>
 <p><span>06</span>Export your work your way</p>
+<p><span>07</span>All your writing in one place</p>
+<p><span>08</span>Sync across devices</p>
 </div>
 </div>
 </div>
@@ -704,5 +778,26 @@ html { scroll-behavior: auto; }
 <p>© 2026 Writez. All rights reserved.</p>
 </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+new Swiper(".screenshot-swiper", {
+spaceBetween: 30,
+grabCursor: true,
+loop: true,
+pagination: {
+el: ".screenshot-swiper .swiper-pagination",
+clickable: true
+},
+navigation: {
+nextEl: ".carousel .swiper-button-next",
+prevEl: ".carousel .swiper-button-prev"
+},
+breakpoints: {
+0: { slidesPerView: 1 },
+768: { slidesPerView: 2 },
+1024: { slidesPerView: 3 }
+}
+});
+</script>
 </body>
 </html>
