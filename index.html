@@ -30,12 +30,15 @@ color: var(--ink);
 font-family: var(--reading);
 font-weight: 400;
 font-size: 12px;
-line-height: 16px;
+line-height: 18px;
 }
 
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
-h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3, p {
+margin-top: 0;
+margin-bottom: 0;
+}
 
 .shell {
 width: min(1120px, calc(100% - 48px));
@@ -129,7 +132,7 @@ justify-self: center;
 }
 
 .eyebrow {
-margin: 0 0 20px;
+margin: 0 0 24px;
 color: var(--terracotta);
 font-size: 11px;
 line-height: 16px;
@@ -139,20 +142,20 @@ text-transform: uppercase;
 }
 
 h1 {
-margin-bottom: 24px;
+margin-bottom: 30px;
 max-width: 610px;
 font-size: clamp(44px, 5vw, 68px);
 font-weight: 600;
-line-height: 1.04;
+line-height: 1.15;
 letter-spacing: -0.04em;
 }
 
 .hero-support {
 max-width: 430px;
-margin-bottom: 32px;
+margin-bottom: 36px;
 color: var(--muted);
 font-size: 16px;
-line-height: 24px;
+line-height: 26px;
 }
 
 .edit-note {
@@ -193,10 +196,10 @@ line-height: 14px;
 
 .section-heading h2,
 .contact-section h2 {
-margin-bottom: 20px;
+margin-bottom: 24px;
 font-size: clamp(34px, 4vw, 48px);
 font-weight: 600;
-line-height: 1.1;
+line-height: 1.22;
 letter-spacing: -0.025em;
 }
 
@@ -204,7 +207,7 @@ letter-spacing: -0.025em;
 .contact-section p {
 color: var(--muted);
 font-size: 14px;
-line-height: 22px;
+line-height: 24px;
 }
 
 .centered-heading {
@@ -243,10 +246,10 @@ line-height: 16px;
 
 .value-grid h3,
 .feature-card h3 {
-margin: 44px 0 10px;
+margin: 44px 0 14px;
 font-size: 14px;
 font-weight: 600;
-line-height: 20px;
+line-height: 22px;
 }
 
 .value-grid p,
@@ -256,7 +259,7 @@ line-height: 20px;
 margin-bottom: 0;
 color: var(--muted);
 font-size: 12px;
-line-height: 16px;
+line-height: 19px;
 }
 
 .split-heading {
@@ -282,7 +285,7 @@ border-top: 1px solid var(--line);
 padding: 22px 0 0;
 }
 
-.feature-card h3 { margin-top: 34px; }
+.feature-card h3 { margin-top: 36px; }
 .compact-heading { max-width: 590px; }
 .carousel { margin-top: 56px; position: relative; }
 
@@ -359,7 +362,7 @@ border-top: 1px solid var(--line);
 color: var(--ink);
 font-weight: 600;
 font-size: 13px;
-line-height: 18px;
+line-height: 20px;
 }
 
 .carousel-captions span { color: var(--terracotta); }
@@ -387,10 +390,10 @@ padding: 0;
 cursor: pointer;
 list-style: none;
 position: relative;
-padding: 24px 48px 24px 0;
+padding: 28px 48px 28px 0;
 font-size: 14px;
 font-weight: 600;
-line-height: 20px;
+line-height: 22px;
 }
 
 .faq-list summary::-webkit-details-marker { display: none; }
@@ -399,7 +402,7 @@ line-height: 20px;
 content: "+";
 position: absolute;
 right: 0;
-top: 23px;
+top: 27px;
 color: var(--terracotta);
 font-size: 24px;
 font-weight: 400;
@@ -409,7 +412,7 @@ font-weight: 400;
 
 .faq-list p {
 max-width: 620px;
-padding: 0 48px 24px 0;
+padding: 0 48px 30px 0;
 }
 
 .contact-section {
@@ -457,7 +460,7 @@ margin: 0;
 color: #fffaf6;
 font-size: 14px;
 font-weight: 600;
-line-height: 20px;
+line-height: 22px;
 }
 
 .contact-details a {
@@ -531,7 +534,10 @@ text-align: center;
 .button-small { display: none; }
 .header-inner { grid-template-columns: 1fr; }
 .section { padding-block: 72px; }
-h1 { font-size: 40px; }
+h1 {
+font-size: 40px;
+line-height: 1.18;
+}
 .placeholder { min-height: 400px; }
 
 .value-grid,
